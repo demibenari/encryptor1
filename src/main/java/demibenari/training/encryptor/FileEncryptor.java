@@ -6,6 +6,10 @@ import demibenari.training.encryptor.util.Utils;
 
 import java.io.File;
 
+/**
+ * @author  Demi Ben-Ari
+ */
+
 public class FileEncryptor {
     public void encryptFile(File inputFile) {
         int key = KeyGenerator.generateKey();

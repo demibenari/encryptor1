@@ -2,6 +2,10 @@ package demibenari.training.encryptor.util;
 
 import java.util.Random;
 
+/**
+ * @author  Demi Ben-Ari
+ */
+
 public class KeyGenerator {
     private static final Random RAND = new Random();
 

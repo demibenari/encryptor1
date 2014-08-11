@@ -2,6 +2,10 @@ package demibenari.training.encryptor;
 
 import demibenari.training.encryptor.util.Utils;
 
+/**
+ * @author  Demi Ben-Ari
+ */
+
 public class EncryptionAlgorithm {
     private String encryptionContent = "";
     private int encryptionKey = 0;

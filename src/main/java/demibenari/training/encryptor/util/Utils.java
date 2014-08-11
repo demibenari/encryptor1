@@ -2,6 +2,10 @@ package demibenari.training.encryptor.util;
 
 import java.io.File;
 
+/**
+ * @author  Demi Ben-Ari
+ */
+
 public class Utils {
 
     private static final String ENCRYPTED_SUFFIX = "_encrypted";

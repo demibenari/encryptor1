@@ -3,6 +3,10 @@ package demibenari.training.encryptor.util;
 import java.io.*;
 import java.util.Scanner;
 
+/**
+ * @author  Demi Ben-Ari
+ */
+
 public class FileUtils {
 
     /**
@@ -31,8 +35,8 @@ public class FileUtils {
                 }
 
                 scanner.close();  // It's important to Close the scanner in the end of it's use,
-                // but notice that you don't close the scanner of (System.in).
-                // In case you are reading form the console
+                                  // but notice that you don't close the scanner of (System.in).
+                                  // In case you are reading form the console
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }

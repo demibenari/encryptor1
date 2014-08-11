@@ -6,14 +6,17 @@ import demibenari.training.encryptor.util.Utils;
 
 import java.io.File;
 
+/**
+ * @author  Demi Ben-Ari
+ */
+
 public class Main {
     private static final int EXIT = 0;
 	private static final int ENCRYPT_OPTION =1;
 	private static final int DECRYPT_OPTION = 2;
-    public static final int NOT_CHOSEN = -1;
 
     public static void main(String[] args) {
-        int usersChoice = NOT_CHOSEN;
+        int usersChoice;
 
         // While the user has not chosen
         do {
